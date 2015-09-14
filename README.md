@@ -32,6 +32,6 @@ IGMPv3を送信することが出来、sourceも指定することが出来ま�
 
 
 # IGMPのdestinationアドレスについて
- IGMPのReportsで使うIP Destinationはバージョンによって指定されている([RFC3376][https://tools.ietf.org/html/rfc3376]を参照)
+ IGMPのReportsで使うIP Destinationはバージョンによって指定されている。[RFC3376](https://tools.ietf.org/html/rfc3376)を参照のこと。
 *  IGMPv2 : 224.0.0.1
 *  IGMPv3 : 224.0.0.22
