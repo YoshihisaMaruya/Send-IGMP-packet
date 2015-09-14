@@ -1,6 +1,7 @@
 
-IGMP Member Ship Reportを送信するアプリケーションです.
+IGMPパケットを送信するアプリケーション.
 
+現在、Membership Reportのみ対応.
 
 ---
 # v2,v3に対応について
