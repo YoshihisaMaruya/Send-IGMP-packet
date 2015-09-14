@@ -31,6 +31,7 @@ IGMPv3を送信することが出来、sourceも指定することが出来ま�
     echo "2" > /proc/sys/net/ipv4/conf/eth0/force_igmp_version
 
 
-# マルチキャストのdestinationアドレスについて
+# IGMPのdestinationアドレスについて
+ IGMPのReportsで使うIP Destinationはバージョンによって指定されている([RFC3376]<https://tools.ietf.org/html/rfc3376>を参照)
 *  IGMPv2 : 224.0.0.1
 *  IGMPv3 : 224.0.0.22
